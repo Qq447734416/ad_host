@@ -16,11 +16,14 @@ if(new_response_body){
   new_response_body = JSON.parse(new_response_body);
   //判断路径是否存在，不存在则创建并赋值为一个空数组
   if(!new_response_body.data){
-    new_response_body.data = {};}
+    new_response_body.data = {};
+    console.log("1");}
   if(!new_response_body.data.sections_v2){
-    new_response_body.data.sections_v2 = {};}
+    new_response_body.data.sections_v2 = {};
+    console.log("2";}
   if(!new_response_body.data.sections_v2.items){
-    new_response_body.data.sections_v2.items = {};}
+    new_response_body.data.sections_v2.items = {};
+    console.log("3")}
   
     //修改原始响应体内容
     new_response_body.data.sections_v2.items = new_items;
