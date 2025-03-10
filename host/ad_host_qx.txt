@@ -6,5 +6,9 @@ host-suffix,adsmind.gdtimg.com,reject
 host-suffix,adstats.tencentmusic.com,reject
 host-suffix,ad.tencentmusic.com,reject
 
+#小黑盒
+host-suffix,monitor.xiaoheihe.cn,reject
+host-suffix,log-auth.zztfly.com,reject
+
 
 
