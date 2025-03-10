@@ -10,5 +10,14 @@ host-suffix,ad.tencentmusic.com,reject
 host-suffix,monitor.xiaoheihe.cn,reject
 host-suffix,log-auth.zztfly.com,reject
 
+#bilibili
+host-suffix,line3-h5-mobile-api.biligame.com,reject
+host-suffix,api.live.bilibili.com,reject
+host-suffix,mall.bilibili.com,reject
+host-suffix,graph.facebook.com,reject
+host-suffix,launches.appsflyer.com,reject
+
+#12306
+host-suffix,ad.12306.cn,reject
 
 
