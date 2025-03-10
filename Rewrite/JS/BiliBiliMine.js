@@ -27,7 +27,7 @@ if(new_response_body){
       console.log("3");
     }
 
-    new_response_body.data.sections_v2.items.push(...new_items);
+    new_response_body.data.sections_v2.items = new_items
 
     new_response_body = JSON.stringify(new_response_body);
     console.log("0.3");
