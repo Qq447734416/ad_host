@@ -1,5 +1,5 @@
 
-console.log("0.1")
+console.log("0.1");
 let new_items = [{
                         "id": 501,
                         "title": "设置",
@@ -10,7 +10,7 @@ let new_items = [{
 
 
 let new_response_body = $response.body;
-console.log("0.2")
+console.log("0.2");
 
 if(new_response_body){
   try{
@@ -31,7 +31,7 @@ if(new_response_body){
     new_response_body.data.sections_v2.items = new_items;
 
     new_response_body = JSON.stringify(new_response_body);
-    console.log("0.3")
+    console.log("0.3");
     $done({ body: new_response_body});    
   }catch (e) {
 
