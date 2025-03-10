@@ -6,4 +6,6 @@ let new_items = [{
                         "common_op_item": {}
                     }];
 
-let response = 
+let response = $response.body;
+response = JSON.parse(response);
+response
