@@ -1,0 +1,9 @@
+let new_items = [{
+                        "id": 501,
+                        "title": "设置",
+                        "uri": "bilibili://user_center/setting",
+                        "icon": "http://i0.hdslb.com/bfs/archive/e932404f2ee62e075a772920019e9fbdb4b5656a.png",
+                        "common_op_item": {}
+                    }];
+
+let response = 
