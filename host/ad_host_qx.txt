@@ -26,5 +26,10 @@ host-suffix,spider-tracker.xiaohongshu.com,reject
 host-suffix,e.cn.miaozhen.com,reject
 host-suffix,ads-img-al.xhscdn.com,reject
 
+#美丽修行
+host-suffix,adashbc.ut.taobao.com,reject
+host-suffix,log.aliyuncs.com,reject
+host-suffix,ulogs.umeng.com,reject
+host-suffix,knicks.jd.com,reject
 
 
