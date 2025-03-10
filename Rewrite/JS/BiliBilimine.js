@@ -15,7 +15,7 @@ if(new_response_body){
     new_response_body = JSON.parse(new_response_body);
 
 
-    new_response_body.data.sections_v2.items = new_items
+    new_response_body.data.sections_v2.items[1] = new_items
 
     new_response_body = JSON.stringify(new_response_body);
     console.log("0.3");
