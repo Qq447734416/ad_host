@@ -20,4 +20,11 @@ host-suffix,launches.appsflyer.com,reject
 #12306
 host-suffix,ad.12306.cn,reject
 
+#小红书
+host-suffix,ci.xiaohongshu.com,reject
+host-suffix,spider-tracker.xiaohongshu.com,reject
+host-suffix,e.cn.miaozhen.com,reject
+host-suffix,ads-img-al.xhscdn.com,reject
+
+
 
