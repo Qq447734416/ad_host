@@ -1,0 +1,8 @@
+
+#QQmusic
+host-suffix,adcdn6.tencentmusic.com,reject
+host-suffix,pgdt.gtimg.cn,reject
+host-suffix,adsmind.gdtimg.com,reject
+host-suffix,adstats.tencentmusic.com,reject
+
+
