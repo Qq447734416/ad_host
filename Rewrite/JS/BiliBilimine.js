@@ -5,11 +5,12 @@ let new_items = [{
                     "icon": "http://i0.hdslb.com/bfs/archive/e932404f2ee62e075a772920019e9fbdb4b5656a.png",
                     "common_op_item": {}
                 }];
-
+//获取原始响应体
 let new_response_body = $response.body;
-
+//判断响应体是否为空
 if(new_response_body){
   try{
+    //转化为json格式
     new_response_body = JSON.parse(new_response_body);
 
 
