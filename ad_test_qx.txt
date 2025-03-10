@@ -1,3 +1,6 @@
 #QQmusic_test
 host-suffix,rdt.tfogc.com,reject
 host-suffix,beacon.qq.com,reject
+host-suffix,galileotelemetry.tencent.com,reject
+host-suffix,file.myqcloud.com,reject
+host-suffix,monitor.music.qq.com,reject
