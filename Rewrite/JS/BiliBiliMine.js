@@ -14,18 +14,6 @@ if(new_response_body){
   try{
     new_response_body = JSON.parse(new_response_body);
 
-    if(!new_response_body.data){
-      new_response_body.data = {};
-      console.log("1");
-    }
-    if(!new_response_body.data.sections_v2){
-      new_response_body.data.sections_v2 = {};
-      console.log("2");
-    }
-    if(!Array.isArray(new_response_body.data.sections_v2.items)){
-      new_response_body.data.sections_v2.items = [];
-      console.log("3");
-    }
 
     new_response_body.data.sections_v2.items = new_items
 
