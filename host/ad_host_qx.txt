@@ -25,6 +25,7 @@ host-suffix,ci.xiaohongshu.com,reject
 host-suffix,spider-tracker.xiaohongshu.com,reject
 host-suffix,e.cn.miaozhen.com,reject
 host-suffix,ads-img-al.xhscdn.com,reject
+host-suffix,dualstack-logs.amap.com,reject
 
 #美丽修行
 host-suffix,adashbc.ut.taobao.com,reject
