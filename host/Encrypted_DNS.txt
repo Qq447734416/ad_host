@@ -62,3 +62,6 @@ host-suffix,passport.dns.iqiyi.com,reject
 host-suffix,resolver.msg.xiaomi.net,reject
 host-suffix,static.dns.qiyipic.iqiyi.com,reject
 host-suffix,v6-data.video.dns.iqiyi.com,reject
+
+
+host,doh.pub,reject
