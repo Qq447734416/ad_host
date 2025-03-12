@@ -11,7 +11,11 @@ if(body){
     let live_index = body.data.categories.findIndex(item => item.name === '直播');
     let playlet_index = body.data.categories.findIndex(item => item.name === '短剧');
     let man_index = body.data.categories.findIndex(item => item.name === '男士理容');
-    
+
+    body.data.categories[live_index].fixed = false;
+    body.data.categories[playlet_index].fixed = false;
+    body.data.categories[man_index].fixed = false;
+    /*
     //在成功找到索引时，删除原数组元素
     if(live_index !== -1){
       body.data.categories.splice(live_index, 1);
@@ -32,6 +36,7 @@ if(body){
     }else{
       console.log("未找到“男士理容”tab，删除失败");
     }   
+    */
     //如果三个tab都未找到，则直接返回原始内容
     if((live_index == -1) && (playlet_index == -1) && (man_index == -1)){
       console.log("未成功修改任何一个tab，将返回原始内容");
