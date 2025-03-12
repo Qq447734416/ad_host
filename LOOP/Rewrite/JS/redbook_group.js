@@ -15,15 +15,20 @@ if(body){
     $done({body:body});
   }catch(e){
     console.log("修改响应体失败：", e);
-    let title = "";
+    //发送一个本地通知
+    let title = "脚本运行错误";
     let subtitle = "";
-    let content = "";
+    let content = "响应体不为json格式或修改响应体数时出现错误，脚本名称：" + $script.name;
+    $notification.post(title ,subtitle, content);
     $done({});
-  }
-  
-  
+  } 
 }else{
   //响应体为空
   console.log("响应体内容为空");
+  //发送一个本地通知
+  let title = "脚本运行错误";
+  let subtitle = "";
+  let content = "响应体为空，脚本名称：" + $script.name;
+  $notification.post(title ,subtitle, content);
   $done({});
 }
