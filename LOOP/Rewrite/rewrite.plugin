@@ -1,7 +1,7 @@
 
 
 [MitM]
-hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn
+hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, 
 
 
 [rewrite]
