@@ -1,7 +1,7 @@
 
 
 [MitM]
-hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com
+hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com
 
 
 [rewrite]
@@ -22,8 +22,13 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/y\.qq\.com\/mediastyle\/lv-icon reject-dict
 ^https:\/\/music-conf-cdn\.y\.qq\.com\/ocs reject-dict
 ^https:\/\/y\.qq\.com\/music\/photo_new\/T011M000003Jvevi0dRI87\.png reject-dict
-^https:\/\/y\.qq\.com\/music\/common\/upload\/ocs\/c2ac0fc9e6939fc74213cd5b05c327fc\.png reject-dict
 ^https:\/\/ossgw\.alicdn\.com\/creatives-assets reject-dict
+
+^https:\/\/y\.qq\.com\/music\/common\/upload\/ocs\/c2ac0fc9e6939fc74213cd5b05c327fc\.png reject-dict
+^https:\/\/music-file6\.y\.qq\.com\/iosodr\/pp\/6f44d\/gsQl_1d4d_plt_dynamic_island\.pag reject-dict
+^https:\/\/music-file6\.y\.qq\.com\/iosodr\/pp\/6f44d\/UWyz_3d59_root_tab_radar_guide_dark\.pag reject-dict
+^https:\/\/music-file6\.y\.qq\.com\/iosodr\/pp\/6f44d\/WFxT_7971_root_tab_radar_guide_light\.pag reject-dict
+
 
 #12306
 ^https:\/\/exservice\.12306\.cn\/excater\/bonree reject-dict
