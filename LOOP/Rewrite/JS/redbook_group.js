@@ -10,8 +10,9 @@ if(body){
     //赋值为一个空字符串
     body.data.plus_sign.entrance.desc = "";
     body.data.plus_sign.entrance.descCn = "";
-    //转换格式
+    //返回修改后的数据
     body = JSON.stringify(body);
+    console.log("修改成功");
     $done({body:body});
   }catch(e){
     console.log("修改响应体失败：", e);
