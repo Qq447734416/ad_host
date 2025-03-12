@@ -44,6 +44,7 @@ if(body){
     }
     //返回修改后的响应体
     body = JSON.stringify(body);
+    console.log("修改成功");
     $done({body:body});
   }catch(e){
     console.log("修改响应体失败：",e );
