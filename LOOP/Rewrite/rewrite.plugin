@@ -1,7 +1,7 @@
 
 
 [MitM]
-hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com
+hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com, c6.y.qq.com
 
 
 [rewrite]
@@ -28,6 +28,8 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/music-file6\.y\.qq\.com\/iosodr\/pp\/6f44d\/gsQl_1d4d_plt_dynamic_island\.pag reject-dict
 ^https:\/\/music-file6\.y\.qq\.com\/iosodr\/pp\/6f44d\/UWyz_3d59_root_tab_radar_guide_dark\.pag reject-dict
 ^https:\/\/music-file6\.y\.qq\.com\/iosodr\/pp\/6f44d\/WFxT_7971_root_tab_radar_guide_light\.pag reject-dict
+^https:\/\/c6\.y\.qq\.com\/tips\/fcgi-bin\/fcg_get_advert\.fcg reject-dict
+^https:\/\/c6\.y\.qq\.com\/musichall\/fcgi-bin\/3g_get_mymusic_topbanner\.fcg reject-dict
 
 
 #12306
