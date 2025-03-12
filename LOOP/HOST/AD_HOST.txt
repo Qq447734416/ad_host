@@ -7,6 +7,8 @@ DOMAIN-SUFFIX,pgdt.gtimg.cn
 DOMAIN-SUFFIX,adsmind.gdtimg.com
 DOMAIN-SUFFIX,adstats.tencentmusic.com
 DOMAIN-SUFFIX,ad.tencentmusic.com
+DOMAIN-SUFFIX,xs.gdt.qq.com
+
 
 
 #QQmusic_test
@@ -16,6 +18,7 @@ DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,galileotelemetry.tencent.com
 DOMAIN-SUFFIX,file.myqcloud.com
 DOMAIN-SUFFIX,monitor.music.qq.com
+DOMAIN-SUFFIX,y.qq.com
 
 
 #小黑盒
