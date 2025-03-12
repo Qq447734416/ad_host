@@ -46,7 +46,7 @@ if(body){
       let title = "脚本运行错误";
       let subtitle = "";
       let content = "未找到任何一个可以被修改的tab，脚本名称：" + $script.name;
-      $notification({title, subtitle, content});
+      $notification.post({title, subtitle, content});
       $done({});
     }
     //返回修改后的响应体
@@ -59,7 +59,7 @@ if(body){
     let title = "脚本运行错误";
     let subtitle = "";
     let content = "修改响应体失败，脚本名称：" + $script.name;
-    $notification({title, subtitle, content });
+    $notification.post({title, subtitle, content });
     //返回原始内容
     $done({});
   }
