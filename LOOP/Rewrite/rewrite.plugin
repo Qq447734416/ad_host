@@ -18,6 +18,12 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/dataflow\.biliapi\.com\/log\/pbmobile reject-dict
 ^https:\/\/data\.bilibili\.com\/log reject-dict
 
+#QQmusic
+^https:\/\/y\.qq\.com\/mediastyle\/lv-icon reject-dict
+^https:\/\/music-conf-cdn\.y\.qq\.com\/ocs reject-dict
+^https:\/\/y\.qq\.com\/music\/photo_new\/T011M000003Jvevi0dRI87\.png reject-dict
+^https:\/\/y\.qq\.com\/music\/common\/upload\/ocs\/c2ac0fc9e6939fc74213cd5b05c327fc\.png reject-dict
+
 #12306
 ^https:\/\/exservice\.12306\.cn\/excater\/bonree reject-dict
 
