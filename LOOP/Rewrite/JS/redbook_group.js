@@ -13,7 +13,7 @@ if(body){
     //转换格式
     body = JSON.stringify(body);
 
-    $done({body:body);
+    $done({body:body});
   }catch(e){
     console.log("修改响应体失败：", e);
     $done({});
