@@ -22,6 +22,7 @@ if(body){
     
     //返回数据
     body = JSON.stringify(body);
+    console.log("修改成功");
     $done({body:body});
   }catch(e){
     console.log("修改请求体失败", e);
