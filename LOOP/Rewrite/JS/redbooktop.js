@@ -35,13 +35,23 @@ if(body){
     //如果三个tab都未找到，则直接返回原始内容
     if((live_index == -1) && (playlet_index == -1) && (man_index == -1)){
       console.log("未成功修改任何一个tab，将返回原始内容");
-      $done({body:$response.body});
+      //发送一个本地通知
+      let title = "脚本运行错误";
+      let subtitle = "";
+      let content = "未找到任何一个可以被修改的tab，脚本名称：" + $script.name;
+      $notification({title, subtitle, content});
+      $done({});
     }
     //返回修改后的响应体
     body = JSON.stringify(body);
     $done({body:body});
   }catch(e){
-    console.error("修改响应体失败：",e );
+    console.log("修改响应体失败：",e );
+    //发送一个本地通知
+    let title = "脚本运行错误";
+    let subtitle = "";
+    let content = "修改响应体失败，脚本名称：" + $script.name;
+    $notification({title, subtitle, content });
     //返回原始内容
     $done({});
   }
@@ -49,6 +59,10 @@ if(body){
   
 }else{
   console.log("错误，响应体内容为空");
+  //发送一个本地通知
+  let title = "脚本运行错误";
+  let subtitle = "";
+  let content = "响应体内容为空，脚本名称：" + $script.name;
   //返回原始内容
   $done({});
 }
