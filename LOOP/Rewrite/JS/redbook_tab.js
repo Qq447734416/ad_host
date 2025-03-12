@@ -24,8 +24,10 @@ if(body){
     body.data.sideConfigHomepage.hierarchy.structure.body = new_array;
     body.data.sideConfigPersonalPage.hierarchy.structure.body = new_array;
     body = JSON.stringify(body);
+    //返回修改后的数据
+    console.log("修改成功");
     $done({body:body});
-    console.log("修改成功。");    
+        
   }catch(e){
     console.log("修改失败：",e );
     //发送一个本地通知
