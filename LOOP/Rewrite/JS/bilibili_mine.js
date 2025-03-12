@@ -21,7 +21,7 @@ if(body){
       //发送通知
       let title = "脚本运行错误";
       let content = "未找到”设置“的索引，脚本：" + $script.name;
-      $notification({title, subtitle:"", content});
+      $notification.post({title, subtitle:"", content});
       //返回原始数据
       $done({});
     } 
@@ -30,7 +30,7 @@ if(body){
     //发送通知
     let title = "脚本运行失败";
     let content = "修改请求体失败,脚本：" + $script.name;
-    $notification({title, subtitle:"", content});
+    $notification.post({title, subtitle:"", content});
     //返回原始数据
     $done({});
   }
@@ -38,7 +38,7 @@ if(body){
   console.log("响应体为空");
   let title = "脚本运行错误";
   let content = "响应体为空，脚本：" + $script.name;
-  $notification({title, subtitle:"", content});
+  $notification.post({title, subtitle:"", content});
   //返回原始数据
   $done({});
 }
