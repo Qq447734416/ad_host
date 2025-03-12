@@ -1,0 +1,34 @@
+
+
+[MitM]
+hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn
+
+
+[rewrite]
+#小红书
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config reject-dict
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_async_optimization reject-dict
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record reject-dict
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource reject-dict
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage reject-dict
+
+#哔哩哔哩
+^https:\/\/api\.bilibili\.com\/open\/monitor reject-dict
+^https:\/\/app\.bilibili\.com\/x\/v2\/splash reject-dict
+^https:\/\/dataflow\.biliapi\.com\/log\/pbmobile reject-dict
+^https:\/\/data\.bilibili\.com\/log reject-dict
+
+#12306
+^https:\/\/exservice\.12306\.cn\/excater\/bonree reject-dict
+
+#小米运动
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/iotweb-user-center reject-dict
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/appres\/images reject-dict
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/static-files\/running_route reject-dict
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/article\/user reject-dict
+
+#美团
+^https:\/\/img\.meituan\.net\/bizad reject-dict
+
+#美丽修行
+^https:\/\/img0\.bevol\.cn\/UploadFile\/Ad reject-dict
