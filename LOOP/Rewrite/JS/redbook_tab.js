@@ -14,7 +14,7 @@ let new_array = [
     ];
 console.log("2");
 //获取原始响应体
-let body = $request.body;
+let body = $response.body;;
 console.log("3");
 //如果body存在存在，则修改并返回修改后的内容，如果不存在则返回原始内容
 if(body){
