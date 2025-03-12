@@ -15,7 +15,7 @@ if(body){
       //发送通知
       let title = "脚本运行错误";
       let content = "未找到需要修改的数据，脚本：" + $script.name;
-      $notification({title, subtitle:"", content});
+      $notification.post({title, subtitle:"", content});
       //返回原始数据
       $done({});
     }
@@ -29,7 +29,7 @@ if(body){
     //发送一个本地通知
     let title = "脚本运行错误";
     let content = "修改请求体失败，脚本：" + $script.name;
-    $notification({title, subtitle:"", content });
+    $notification.post({title, subtitle:"", content });
     //返回原始数据
     $done({});
   }
@@ -38,7 +38,7 @@ if(body){
   //发送本地通知
   let title = "脚本运行错误";
   let content = "响应体为空，脚本：" + $script.name;
-  $notification({title, subtitle:"", content});
+  $notification.post({title, subtitle:"", content});
   //返回原始数据
   $done({});
 }
