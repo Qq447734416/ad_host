@@ -2,7 +2,7 @@
 
 
 //获取原始响应体内容
-let body = $response.body
+let body = $response.body;
 //如果响应体存在则尝试转化为JS对象并修改
 if(body){
   try{
