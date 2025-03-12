@@ -14,6 +14,7 @@ if(body){
       body.data.sections_v2[1].items = new_items;
       //返回修改后的数据
       body = JSON.stringify(body);
+      console.log("修改成功");
       $done({body:body});
     }else{
       console.log("未找到”设置“的索引");
