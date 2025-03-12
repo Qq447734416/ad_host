@@ -1,5 +1,6 @@
 //小红书侧边栏精简
 
+
 let new_array = [
         "sidebar_config_draft",
         "sidebar_config_home_comment",
@@ -27,10 +28,20 @@ if(body){
     console.log("修改成功。");    
   }catch(e){
     console.log("修改失败：",e );
+    //发送一个本地通知
+    let title = "脚本运行错误";
+    let subtitle = "";
+    let content = "响应体不为json格式或修改响应体数时出现错误，脚本名称：" + $script.name;
+    $notification.post(title ,subtitle, content);
     $done({});  
   }
 }else{
-  console.log("错误，响应体内容为空");
+    console.log("错误，响应体内容为空");
+    //发送一个本地通知
+    let title = "脚本运行错误";
+    let subtitle = "";
+    let content = "响应体为空，脚本名称：" + $script.name;
+    $notification.post(title ,subtitle, content);
   $done({});
 }
 
