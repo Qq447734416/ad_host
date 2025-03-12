@@ -1,10 +1,5 @@
 //关闭QQ音乐一些debug
- "debugIdReport": true,
-      "globalSwitch": true,
-      "safeUniqueIdReport": true,
-      "samplingEventReport": true,
-      "uniqueIdReport": true,
-      "vendorOAIDReport": true
+
 
 let body = $response.body;
 //请求体不为空则尝试修改，请求体为空或修改失败返回原始数据
