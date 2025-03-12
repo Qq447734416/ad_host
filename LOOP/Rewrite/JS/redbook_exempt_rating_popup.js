@@ -9,7 +9,7 @@ if(body){
     body.data.exempt_rating_popup = true;
     body = JSON.stringify(body);
     console.log("修改成功");
-    done({body:body});
+    $done({body:body});
   }catch(e){
     console.log("修改失败：", e);
     let title = "脚本运行错误";
