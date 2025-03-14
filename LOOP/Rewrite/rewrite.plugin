@@ -25,11 +25,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/ossgw\.alicdn\.com\/creatives-assets reject-dict
 
 ^https:\/\/y\.qq\.com\/music\/common\/upload\/ocs\/c2ac0fc9e6939fc74213cd5b05c327fc\.png reject-dict
-^https:\/\/music-file6\.y\.qq\.com\/iosodr\/pp\/6f44d\/gsQl_1d4d_plt_dynamic_island\.pag reject-dict
-^https:\/\/music-file6\.y\.qq\.com\/iosodr\/pp\/6f44d\/UWyz_3d59_root_tab_radar_guide_dark\.pag reject-dict
-^https:\/\/music-file6\.y\.qq\.com\/iosodr\/pp\/6f44d\/WFxT_7971_root_tab_radar_guide_light\.pag reject-dict
-^https:\/\/c6\.y\.qq\.com\/tips\/fcgi-bin\/fcg_get_advert\.fcg reject-dict
-^https:\/\/c6\.y\.qq\.com\/musichall\/fcgi-bin\/3g_get_mymusic_topbanner\.fcg reject-dict
+
 
 
 #12306
