@@ -1,0 +1,8 @@
+//github相关域名
+
+DOMAIN-SUFFIX, github.com
+DOMAIN-SUFFIX, github.io
+DOMAIN-SUFFIX, githubusercontent.com
+DOMAIN-SUFFIX, github.global.ssl.fastly.net
+DOMAIN-SUFFIX, statuspage.io
+DOMAIN-SUFFIX, github.map.fastly.net
