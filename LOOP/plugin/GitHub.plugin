@@ -1,0 +1,6 @@
+//通过DNS映射解决访问GitHub问题
+
+[Host]
+alive.github.com = 140.82.112.25
+api.github.com = 140.82.121.5
+raw.githubusercontent.com = 185.199.109.133
