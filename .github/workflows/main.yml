@@ -27,14 +27,17 @@ jobs:
       - name: Run script
         run: python scripts/update_GitHubHost.py
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Commit and push changes if any
         run: |
           if [ "$(git status --porcelain)" ]; then 
-            git config --global user.name "github-actions[bot]"
-            git config --global user.email "github-actions[bot]@users.noreply.github.com"
             git add LOOP/plugin/rewrite.plugin
             git commit -m "Auto-update by script"
-            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
+            git push origin main
           else 
             echo "No changes to commit"
           fi
