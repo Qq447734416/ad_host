@@ -6,7 +6,7 @@ try:
     host_ip = requests.get(url).json()
 except requests.RequestException as e:
     print(f"HTTP请求失败: {e}")
-    exit(1)
+    exit(0)
 
 path = r"LOOP/plugin/rewrite.plugin"
 with open(path, "w", encoding="utf-8") as file:
