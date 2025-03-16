@@ -29,12 +29,15 @@ jobs:
       - name: Run script
         run: python scripts/update_GitHubHost.py
 
+      - name: Refresh Git index
+        run: git update-index -q --refresh
+
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push changes if any
+      - name: Check for changes and commit
         run: |
           if [ "$(git status --porcelain)" ]; then 
             git add LOOP/plugin/rewrite.plugin
