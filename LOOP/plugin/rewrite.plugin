@@ -1,44 +1,44 @@
-//通过DNS映射解决无法访问GitHub问题
-//更新时间：2025-03-16 03:23:33
 
-[Host]
-alive.github.com = 140.82.114.25
-api.github.com = 140.82.121.6
-assets-cdn.github.com = 185.199.109.153
-avatars.githubusercontent.com = 185.199.111.133
-avatars0.githubusercontent.com = 185.199.108.133
-avatars1.githubusercontent.com = 185.199.108.133
-avatars2.githubusercontent.com = 185.199.110.133
-avatars3.githubusercontent.com = 185.199.111.133
-avatars4.githubusercontent.com = 185.199.110.133
-avatars5.githubusercontent.com = 185.199.111.133
-camo.githubusercontent.com = 185.199.110.133
-central.github.com = 140.82.114.21
-cloud.githubusercontent.com = 185.199.108.133
-codeload.github.com = 140.82.121.9
-collector.github.com = 140.82.113.21
-desktop.githubusercontent.com = 185.199.111.133
-favicons.githubusercontent.com = 185.199.111.133
-gist.github.com = 140.82.121.3
-github-cloud.s3.amazonaws.com = 16.182.103.169
-github-com.s3.amazonaws.com = 16.15.176.118
-github-production-release-asset-2e65be.s3.amazonaws.com = 52.217.168.49
-github-production-repository-file-5c1aeb.s3.amazonaws.com = 52.216.208.201
-github-production-user-asset-6210df.s3.amazonaws.com = 52.216.43.201
-github.blog = 192.0.66.2
-github.com = 140.82.121.4
-github.community = 140.82.112.18
-github.githubassets.com = 185.199.109.154
-github.global.ssl.fastly.net = 151.101.1.194
-github.io = 185.199.110.153
-github.map.fastly.net = 185.199.108.133
-githubstatus.com = 185.199.110.153
-live.github.com = 140.82.114.26
-media.githubusercontent.com = 185.199.108.133
-objects.githubusercontent.com = 185.199.109.133
-pipelines.actions.githubusercontent.com = 13.107.42.16
-raw.githubusercontent.com = 185.199.109.133
-user-images.githubusercontent.com = 185.199.109.133
-vscode.dev = 13.107.246.67
-education.github.com = 140.82.113.22
-private-user-images.githubusercontent.com = 185.199.108.133
+
+[MitM]
+hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com, c6.y.qq.com
+
+
+[rewrite]
+#小红书
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config reject-dict
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_async_optimization reject-dict
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record reject-dict
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource reject-dict
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage reject-dict
+
+#哔哩哔哩
+^https:\/\/api\.bilibili\.com\/open\/monitor reject-dict
+^https:\/\/app\.bilibili\.com\/x\/v2\/splash reject-dict
+^https:\/\/dataflow\.biliapi\.com\/log\/pbmobile reject-dict
+^https:\/\/data\.bilibili\.com\/log reject-dict
+
+#QQmusic
+^https:\/\/y\.qq\.com\/mediastyle\/lv-icon reject-dict
+^https:\/\/music-conf-cdn\.y\.qq\.com\/ocs reject-dict
+^https:\/\/y\.qq\.com\/music\/photo_new\/T011M000003Jvevi0dRI87\.png reject-dict
+^https:\/\/ossgw\.alicdn\.com\/creatives-assets reject-dict
+
+^https:\/\/y\.qq\.com\/music\/common\/upload\/ocs\/c2ac0fc9e6939fc74213cd5b05c327fc\.png reject-dict
+
+
+
+#12306
+^https:\/\/exservice\.12306\.cn\/excater\/bonree reject-dict
+
+#小米运动
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/iotweb-user-center reject-dict
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/appres\/images reject-dict
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/static-files\/running_route reject-dict
+^https:\/\/cdn\.cnbj1\.fds\.api\.mi-img\.com\/hlth-operate\/article\/user reject-dict
+
+#美团
+^https:\/\/img\.meituan\.net\/bizad reject-dict
+
+#美丽修行
+^https:\/\/img0\.bevol\.cn\/UploadFile\/Ad reject-dict
