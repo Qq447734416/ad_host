@@ -1,4 +1,4 @@
-name: Auto Update GitHubHost
+name: "自动更新LOOP/plugin/GitHub.plugin文件"
 
 on:
   schedule:
@@ -13,31 +13,31 @@ jobs:
       contents: write  # 授予对仓库内容的写入权限
 
     steps:
-      - name: Checkout repository
+      - name: "导入仓库"
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      - name: "安装python"
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: "安装项目依赖"
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run script
+      - name: "运行脚本"
         run: python scripts/update_GitHubHost.py
 
-      - name: Refresh Git index
+      - name: "刷新索引"
         run: git update-index -q --refresh
 
-      - name: Configure Git
+      - name: "配置Git"
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Check for changes and commit
+      - name: Check for changes 和 commit
         run: |
           if [ "$(git status --porcelain)" ]; then 
             git add LOOP/plugin/GitHub.plugin
