@@ -1,5 +1,9 @@
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
+
+cn_timezone = timezone(timedelta(hours=8))
+cn_time = datetime.now(cn_timezone)
+
 
 url = r"https://github-hosts.tinsfox.com/hosts.json"
 try:
@@ -11,7 +15,7 @@ except requests.RequestException as e:
 path = r"LOOP/plugin/GitHub.plugin"
 with open(path, "w", encoding="utf-8") as file:
     file.write("//通过DNS映射解决无法访问GitHub问题\n")
-    file.write(f"//更新时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+    file.write(f"//更新时间：{cn_time.strftime('%Y-%m-%d %H:%M:%S')}\n\n")
     file.write("[Host]\n")
     for x in host_ip:
         file.write(f"{x[1]} = {x[0]}\n")
