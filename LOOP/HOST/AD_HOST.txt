@@ -30,9 +30,8 @@ DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,galileotelemetry.tencent.com
 DOMAIN-SUFFIX,file.myqcloud.com
 DOMAIN-SUFFIX,monitor.music.qq.com
-DOMAIN-SUFFIX,rdt.tfogc.com
 DOMAIN-SUFFIX,sdkreport.e.qq.com
-#DOMAIN-SUFFIX,y.qq.com
+DOMAIN-SUFFIX, xs.gdt.qq.com
 
 
 #小黑盒
