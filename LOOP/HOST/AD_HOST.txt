@@ -8,6 +8,18 @@ DOMAIN-SUFFIX,adsmind.gdtimg.com
 DOMAIN-SUFFIX,adstats.tencentmusic.com
 DOMAIN-SUFFIX,ad.tencentmusic.com
 DOMAIN-SUFFIX,xs.gdt.qq.com
+DOMAIN-SUFFIX, adexpo.tencentmusic.com
+DOMAIN-SUFFIX, adclick.tencentmusic.com
+DOMAIN-SUFFIX, otheve.beacon.qq.com
+DOMAIN-SUFFIX, stat.y.qq.com
+DOMAIN-SUFFIX, tmead.y.qq.com
+DOMAIN-SUFFIX, oth.str.mdt.qq.com
+DOMAIN-SUFFIX, h.trace.qq.com
+DOMAIN-SUFFIX, sdk.e.qq.com
+DOMAIN-SUFFIX, tangram.e.qq.com
+DOMAIN-SUFFIX, us.l.qq.com
+DOMAIN-SUFFIX, p.l.qq.com
+
 
 
 
