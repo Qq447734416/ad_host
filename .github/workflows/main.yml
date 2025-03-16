@@ -40,7 +40,7 @@ jobs:
       - name: Check for changes and commit
         run: |
           if [ "$(git status --porcelain)" ]; then 
-            git add LOOP/plugin/rewrite.plugin
+            git add LOOP/plugin/GitHub.plugin
             git commit -m "Auto-update by script"
             git push origin main
           else 
