@@ -51,4 +51,5 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 #小黑盒
 ^https:\/\/api\.xiaoheihe\.cn\/account\/get_ads_info_v reject-dict
 ^https:\/\/api\.xiaoheihe\.cn\/account\/ad\/get_overall_ad_info reject-dict
+^https:\/\/api\.xiaoheihe\.cn\/account\/data_report reject-dict
 
