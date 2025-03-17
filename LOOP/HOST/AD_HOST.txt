@@ -34,7 +34,7 @@ DOMAIN-SUFFIX, xs.gdt.qq.com
 
 
 #小黑盒
-
+DOMAIN-SUFFIX,imgheybox1.max-c.com  //游戏库顶部广告横幅
 DOMAIN-SUFFIX,monitor.xiaoheihe.cn
 DOMAIN-SUFFIX,log-auth.zztfly.com
 DOMAIN-SUFFIX,ulogs.umeng.com
