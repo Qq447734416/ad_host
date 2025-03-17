@@ -38,6 +38,7 @@ DOMAIN-SUFFIX, xs.gdt.qq.com
 
 DOMAIN-SUFFIX,monitor.xiaoheihe.cn
 DOMAIN-SUFFIX,log-auth.zztfly.com
+DOMAIN-SUFFIX,ulogs.umeng.com
 
 
 #bilibili
