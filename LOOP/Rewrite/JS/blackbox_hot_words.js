@@ -13,7 +13,7 @@ let new_hot_words = {
     },
     "status": "ok"
 };
-$body = $response.body;
+let body = $response.body;
 if(body){
   try{
     $done({body:new_hot_words});
