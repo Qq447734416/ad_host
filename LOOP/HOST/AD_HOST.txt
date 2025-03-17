@@ -48,6 +48,7 @@ DOMAIN-SUFFIX,mall.bilibili.com
 DOMAIN-SUFFIX,graph.facebook.com
 DOMAIN-SUFFIX,launches.appsflyer.com
 DOMAIN-SUFFIX,cm.bilibili.com
+DOMAIN-SUFFIX,g.cn.miaozhen.com
 
 
 #12306
