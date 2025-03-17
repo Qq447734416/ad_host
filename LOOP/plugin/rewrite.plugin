@@ -1,7 +1,7 @@
 
 
 [MitM]
-hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com, c6.y.qq.com, api.xiaoheihe.cn
+hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com, c6.y.qq.com, api.xiaoheihe.cn, rec.xiaohongshu.com
 
 
 [rewrite]
@@ -13,6 +13,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage reject-dict
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/hot_list reject-dict  //热搜
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/trending reject-dict  //猜你想搜
+^https:\/\/rec\.xiaohongshu\.com\/api\/sns\/v1\/note\/tabfeed  //屏蔽热门
 
 
 #哔哩哔哩
