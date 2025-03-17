@@ -17,6 +17,7 @@ let body = $response.body;
 if(body){
   try{
     $done({body:new_hot_words});
+    console.log("修改成功");
   }catch(e){
     console.log("修改请求体失败", e);
     //发送一个本地通知
