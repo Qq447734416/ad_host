@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,api.live.bilibili.com
 DOMAIN-SUFFIX,mall.bilibili.com
 DOMAIN-SUFFIX,graph.facebook.com
 DOMAIN-SUFFIX,launches.appsflyer.com
+DOMAIN-SUFFIX,cm.bilibili.com
 
 
 #12306
