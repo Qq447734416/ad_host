@@ -16,7 +16,7 @@ let new_hot_words = {
 let body = $response.body;
 if(body){
   try{
-    $done({body:new_hot_words});
+    $done({body:JSON.stringify(new_hot_words)});
     console.log("修改成功");
   }catch(e){
     console.log("修改请求体失败", e);
