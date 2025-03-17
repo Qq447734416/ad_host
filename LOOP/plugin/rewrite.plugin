@@ -47,3 +47,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 
 #美丽修行
 ^https:\/\/img0\.bevol\.cn\/UploadFile\/Ad reject-dict
+
+#小黑盒
+^https:\/\/api\.xiaoheihe\.cn\/account\/get_ads_info_v reject-dict
+
