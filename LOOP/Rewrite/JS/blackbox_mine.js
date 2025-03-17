@@ -8,6 +8,7 @@ if(body){
     //修改数据
     body.result.game_card_setting = {};
     body.result.game_cards = [];
+    body.result.task_desc = "";
     //返回数据
     body = JSON.stringify(body);
     $done({body:body});
