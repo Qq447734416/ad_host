@@ -6,7 +6,7 @@ if(body){
   try{
     body = JSON.parse(body);
     //修改数据
-    body.result.result.game_card_setting = {};
+    body.result.game_card_setting = {};
     body.result.game_cards = [];
     //返回数据
     body = JSON.stringify(body);
