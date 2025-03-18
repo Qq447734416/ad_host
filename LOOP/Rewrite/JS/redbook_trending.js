@@ -7,4 +7,5 @@ let body = {
   "data": {}
 };
 
+body = JSON.stringify(body);
 $done({body:body});
