@@ -7,4 +7,4 @@ let body = {
   "data": {}
 };
 
-$done({body:body})
+$done({body:body});
