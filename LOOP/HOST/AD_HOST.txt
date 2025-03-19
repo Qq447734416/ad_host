@@ -68,6 +68,7 @@ DOMAIN-SUFFIX,ads-img-al.xhscdn.com
 DOMAIN-SUFFIX,dualstack-logs.amap.com
 DOMAIN-SUFFIX,ads-img-al.xhscdn.com
 DOMAIN-SUFFIX,ci.xiaohongshu.com
+DOMAIN-SUFFIX,growth-img.xhscdn.com
 
 
 #美丽修行
