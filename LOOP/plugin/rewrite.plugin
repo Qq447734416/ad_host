@@ -2,7 +2,7 @@
 
 [MitM]
 hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com, c6.y.qq.com, api.xiaoheihe.cn, rec.xiaohongshu.com, wcp.taobao.com, apm-native.xiaohongshu.com, referee.xiaohongshu.com, lng.xiaohongshu.com, cm.bilibili.com
-hostname = aaa.bbb.com
+hostname = aaa.bbb.com, ccc.ddd.com
 
 
 
