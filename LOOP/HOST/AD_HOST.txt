@@ -66,6 +66,8 @@ DOMAIN-SUFFIX,spider-tracker.xiaohongshu.com
 DOMAIN-SUFFIX,e.cn.miaozhen.com
 DOMAIN-SUFFIX,ads-img-al.xhscdn.com
 DOMAIN-SUFFIX,dualstack-logs.amap.com
+DOMAIN-SUFFIX,ads-img-al.xhscdn.com
+DOMAIN-SUFFIX,ci.xiaohongshu.com
 
 
 #美丽修行
@@ -74,5 +76,15 @@ DOMAIN-SUFFIX,adashbc.ut.taobao.com
 DOMAIN-SUFFIX,log.aliyuncs.com
 DOMAIN-SUFFIX,ulogs.umeng.com
 DOMAIN-SUFFIX,knicks.jd.com
+
+
+#酷安
+DOMAIN-SUFFIX,umdc.hzchengdun.com
+DOMAIN-SUFFIX,adashbc.ut.taobao.com
+DOMAIN-SUFFIX,ucc.umeng.com
+DOMAIN-SUFFIX,mum.alibabachengdun.com
+DOMAIN-SUFFIX,utoken.umeng.com
+DOMAIN-SUFFIX,cnlogs.umeng.com
+DOMAIN-SUFFIX,iuni.telecome.cn
 
 
