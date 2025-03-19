@@ -52,6 +52,7 @@ DOMAIN-SUFFIX,g.cn.miaozhen.com
 DOMAIN-SUFFIX,inapps.appsflyer.com
 DOMAIN-SUFFIX,launches.appsflyer.com
 DOMAIN-SUFFIX,gcdsdk.appsflyer.com
+DOMAIN-SUFFIX,ios.bugly.qq.com
 
 
 #12306
