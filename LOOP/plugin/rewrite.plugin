@@ -5,6 +5,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 hostname = aaa.bbb.com
 
 
+
 [rewrite]
 #小红书
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config reject-dict
