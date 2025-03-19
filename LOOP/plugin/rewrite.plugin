@@ -38,6 +38,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/data\.bilibili\.com\/log reject-dict
 ^https:\/\/app\.bilibili\.com\/bilibili\.account\.fission\.v1\.Fission\/Window reject-dict
 ^https:\/\/api\.bilibili\.com\/x\/internal\/gaia-gateway\/ExBadBasket reject-dict
+^https:\/\/cm\.bilibili\.com\/cm\/api\/conversion\/mobile\/v2 reject-dict
 ^https:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/DefaultWords reject-dict    //默认搜索词
 
 #QQmusic
