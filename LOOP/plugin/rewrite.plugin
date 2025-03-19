@@ -14,6 +14,22 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/hot_list reject-dict  //热搜
 ^https:\/\/rec\.xiaohongshu\.com\/api\/sns\/v1\/note\/tabfeed reject-dict  //屏蔽热门
 
+^https:\/\/lng\.xiaohongshu\.com\/api\/collect reject-dict
+^https:\/\/apm-native\.xiaohongshu\.com\/api\/collect reject-dict
+^https:\/\/wcp\.taobao\.com\/adstrack reject-dict
+
+^https:\/\/t2\.xiaohongshu\.com\/api\/v2\/collect reject-dict
+^https:\/\/as\.xiaohongshu\.com\/api\/v1\/prb\/ios reject-dict
+^https:\/\/as\.xiaohongshu\.com\/api\/v1\/profile\/ios reject-dict
+^https:\/\/as\.xiaohongshu\.com\/api\/v1\/dvf\/gch\/ios reject-dict
+^https:\/\/as\.xiaohongshu\.com\/api\/v1\/register\/ios reject-dict
+^https:\/\/as\.xiaohongshu\.com\/api\/v1\/cfg\/ios reject-dict
+^https:\/\/fe\.xiaohongshu\.com\/apps\/gameplay\/wish reject-dict
+
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/guide\/home_guide reject-dict
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/banner_list  reject-dict
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/feedback\/common reject-dict
+
 
 #哔哩哔哩
 ^https:\/\/api\.bilibili\.com\/open\/monitor reject-dict
