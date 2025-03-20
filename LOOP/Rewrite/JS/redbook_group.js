@@ -15,7 +15,7 @@ if(body){
     console.log("修改成功");
     $done({body:body});
   }catch(e){
-    console.log("修改响应体失败：", e);
+    console.log("修改响应体失败：" + e);
     //发送一个本地通知
     let title = "脚本运行错误";
     let subtitle = "";
