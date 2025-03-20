@@ -11,7 +11,7 @@ if(body){
     console.log("修改成功");
     $done({body:body});
   }catch(e){
-    console.log("修改失败：", e);
+    console.log("修改失败：" + e);
     let title = "脚本运行错误";
     let subtitle = "";
     let content = "响应体不为json格式或修改响应体数时出现错误，脚本名称：" + $script.name;
