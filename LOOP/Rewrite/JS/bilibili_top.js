@@ -14,7 +14,7 @@ if(body){
       //发送通知
       let title = "脚本运行错误";
       let content = "未找到需要修改的数据，脚本：" + $script.name;
-      $notification.post({title, subtitle:"", content});
+      $notification.post(title, "", content);
       console.log(`未找到需要修改的数据,时间：${$script.startTime}`);
       //返回原始数据
       $done({});
