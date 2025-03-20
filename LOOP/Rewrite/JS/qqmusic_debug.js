@@ -18,11 +18,11 @@ if(body){
     console.log("修改成功");
     $done({body:body});
   }catch(e){
-    console.log("修改响应体失败：", e);
+    console.log("修改响应体失败：" + e);
     //发送通知
     let title = "脚本运行错误";
     let content = "修改响应体失败,脚本：" + $script.name;
-    $notification.post({title, subtitle:"", content });
+    $notification.post(title, "", content);
     //返回原始数据
     $done({});
   }
@@ -31,7 +31,7 @@ if(body){
     //发送通知
     let title = "脚本运行错误";
     let content = "错误，响应体为空,脚本：" + $script.name;
-    $notification.post({title, subtitle:"", content });
+    $notification.post(title, "", content);
     //返回原始数据
     $done({});
 }
