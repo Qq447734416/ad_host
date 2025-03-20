@@ -3,19 +3,18 @@
 
 let body = $response.body;
 if(body){
-  console.log(1);
   try{
     body = JSON.parse(body);
     body.data = body.data.filter(item => item.is_ads === false);
     body = JSON.stringify(body);
     $done({body:body});
   }catch(e){
-    console.log("修改请求体失败",e );
+    console.log("修改请求体失败" + e );
     //发送通知
     let title = "脚本运行失败";
     let subtitle = "";
     let content = "修改请求体失败,脚本：" + $script.name;
-    $notification.post({title,subtitle, content});
+    $notification.post(title, subtitle, content);
     //返回原始数据
     $done({});
   }
@@ -24,7 +23,7 @@ if(body){
   let title = "脚本运行错误";
   let subtitle = "";
   let content = "响应体为空，脚本：" + $script.name;
-  $notification.post({title,subtitle, content});
+  $notification.post(title, subtitle, content);
   //返回原始数据
   $done({});
 }
