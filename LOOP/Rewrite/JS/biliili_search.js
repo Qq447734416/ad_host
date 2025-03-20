@@ -1,8 +1,10 @@
+//去除bilibili热搜索引与搜索发现
+
+
 let body = $response.body;
 if(body){
   try{
     body = JSON.parse(body);
-
     // 寻找热搜索引
     let hot_search_index = body.data.findIndex(item => item.title === 'bilibili热搜');
     // 尝试删除热搜
@@ -10,7 +12,7 @@ if(body){
       try{
         body.data.splice(hot_search_index, 1);
       }catch(e){
-        console.log("删除热搜榜单失败");
+        console.log(`删除热搜榜单失败, 时间：${$script.startTime}, 错误：${e}`);
         // 发送通知
         $notification.post("脚本运行错误", "", "删除热搜失败，脚本名称：" + $script.name);
       }
@@ -25,7 +27,7 @@ if(body){
       try{
         body.data.splice(find_index, 1);
       }catch(e){
-        console.log("删除搜索发现失败");
+        console.log(`删除搜索发现失败, 时间：${$script.startTime}, 错误：${e}`);
         $notification.post("脚本运行错误", "", "删除搜索发现失败，脚本名称：" + $script.name);
       }
     } else {
@@ -34,15 +36,16 @@ if(body){
 
     // 返回数据
     body = JSON.stringify(body);
+    console.log(`修改成功，时间：${$script.startTime}`);
     $done({body:body});
   } catch(e){
-    console.log("脚本运行失败");
-    $notification.post("脚本运行错误", "", e + $script.name);
+    console.log(`脚本运行失败, 时间：${$script.startTime}, 错误：${e}`);
+    $notification.post("脚本运行错误", "", $script.name);
     // 返回原始数据
     $done({});
   }
 } else {
-  console.log("未发现响应体！");
+  console.log(`未发现响应体！时间：${$script.startTime}`);
   $notification.post("脚本运行错误", "", "未发现响应体" + $script.name);
   // 返回原始数据
   $done({});
