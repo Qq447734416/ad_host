@@ -14,31 +14,31 @@ if(body){
       body.data.sections_v2[1].items = new_items;
       //返回修改后的数据
       body = JSON.stringify(body);
-      console.log("修改成功");
+      console.log(`修改成功，${$script.startTime}`);
       $done({body:body});
     }else{
-      console.log("未找到”设置“的索引");
       //发送通知
       let title = "脚本运行错误";
-      let content = "未找到”设置“的索引，脚本：" + $script.name;
-      $notification.post({title, subtitle:"", content});
+      let content = `未找到'设置'的索引，脚本：${$script.name}`;
+      $notification.post(title, "", content);
+      console.log(`未找到"设置"的索引${$script.startTime}`);
       //返回原始数据
       $done({});
     } 
   }catch(e){
-    console.log("修改请求体失败",e );
     //发送通知
     let title = "脚本运行失败";
-    let content = "修改请求体失败,脚本：" + $script.name;
-    $notification.post({title, subtitle:"", content});
+    let content = `修改请求体失败,脚本：${$script.name}`;
+    $notification.post(title, "", content);
+    console.log(`修改请求体失败, time:${$script.startTime}, error:${e}`);
     //返回原始数据
     $done({});
   }
 }else{
-  console.log("响应体为空");
   let title = "脚本运行错误";
-  let content = "响应体为空，脚本：" + $script.name;
-  $notification.post({title, subtitle:"", content});
+  let content = `响应体为空，脚本：${$script.name}`;
+  $notification.post(title, "", content);
+  console.log(`响应体为空,time:${$script.startTime}`);
   //返回原始数据
   $done({});
 }
