@@ -1,7 +1,7 @@
 
 
 [MitM]
-hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com, c6.y.qq.com, api.xiaoheihe.cn, rec.xiaohongshu.com, wcp.taobao.com, apm-native.xiaohongshu.com, referee.xiaohongshu.com, lng.xiaohongshu.com, cm.bilibili.com
+			hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com, c6.y.qq.com, api.xiaoheihe.cn, rec.xiaohongshu.com, wcp.taobao.com, apm-native.xiaohongshu.com, referee.xiaohongshu.com, lng.xiaohongshu.com, cm.bilibili.com, gator.volces.com
 
 
 
@@ -74,4 +74,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/api\.xiaoheihe\.cn\/account\/get_ads_info_v reject-dict
 ^https:\/\/api\.xiaoheihe\.cn\/account\/ad\/get_overall_ad_info reject-dict
 ^https:\/\/api\.xiaoheihe\.cn\/account\/data_report reject-dict
+
+#kimi
+^https:\/\/gator\.volces\.com\/service\/2\/app_log reject-dict
 
