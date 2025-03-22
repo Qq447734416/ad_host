@@ -88,4 +88,7 @@ DOMAIN-SUFFIX,utoken.umeng.com
 DOMAIN-SUFFIX,cnlogs.umeng.com
 DOMAIN-SUFFIX,iuni.telecome.cn
 
+#kimi
+DOMAIN-SUFFIX, gator.volces.com
+
 
