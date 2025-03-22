@@ -76,7 +76,6 @@ DOMAIN-SUFFIX,growth-img.xhscdn.com
 
 DOMAIN-SUFFIX,adashbc.ut.taobao.com
 DOMAIN-SUFFIX,log.aliyuncs.com
-DOMAIN-SUFFIX,ulogs.umeng.com
 DOMAIN-SUFFIX,knicks.jd.com
 
 
