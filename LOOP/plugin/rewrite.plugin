@@ -3,7 +3,7 @@
 [MitM]
 
 
-hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com, c6.y.qq.com, api.xiaoheihe.cn, rec.xiaohongshu.com, wcp.taobao.com, apm-native.xiaohongshu.com, referee.xiaohongshu.com, lng.xiaohongshu.com, cm.bilibili.com
+hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.bilibili.com, exservice.12306.cn, cdn.cnbj1.fds.api.mi-img.com, img0.bevol.cn, y.qq.com, music-conf-cdn.y.qq.com, ossgw.alicdn.com, music-file6.y.qq.com, c6.y.qq.com, api.xiaoheihe.cn, rec.xiaohongshu.com, wcp.taobao.com, apm-native.xiaohongshu.com, referee.xiaohongshu.com, lng.xiaohongshu.com, cm.bilibili.com, i2.hdslb.com
 
 
 
@@ -45,6 +45,8 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/api\.bilibili\.com\/x\/report\/click\/ios reject-dict
 ^https:\/\/app\.bilibili\.com\/x\/v2\/dataflow\/report reject-dict
 ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/bubble reject-dict
+^https:\/\/i2\.hdslb\.com\/bfs\/sycp\/cm\/cover reject-dict    //搜索结果推广
+^https:\/\/i2\.hdslb\.com\/bfs\/game reject-dict     //搜索结果推广
 ^https:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/DefaultWords reject-dict    //默认搜索词
 
 #QQmusic
