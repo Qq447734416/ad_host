@@ -36,6 +36,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/banner_list  reject-dict
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/feedback\/common reject
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/metrics_report reject
+^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/update_device reject
 
 
 #哔哩哔哩
