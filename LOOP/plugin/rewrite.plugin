@@ -16,40 +16,40 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage reject-dict
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/hot_list reject-dict  //热搜
 ^https:\/\/rec\.xiaohongshu\.com\/api\/sns\/v1\/note\/tabfeed reject-dict  //屏蔽热门
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/badge\/update_badge reject-dict
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/launch reject-dict
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/badge\/update_badge reject
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/launch reject
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/system_service\/flag_exp reject-dict
 
-^https:\/\/lng\.xiaohongshu\.com\/api\/collect reject-dict
-^https:\/\/apm-native\.xiaohongshu\.com\/api\/collect reject-dict
-^https:\/\/wcp\.taobao\.com\/adstrack reject-dict
+^https:\/\/lng\.xiaohongshu\.com\/api\/collect reject
+^https:\/\/apm-native\.xiaohongshu\.com\/api\/collect reject
+^https:\/\/wcp\.taobao\.com\/adstrack reject
 
-^https:\/\/t2\.xiaohongshu\.com\/api\/v2\/collect reject-dict
-^https:\/\/as\.xiaohongshu\.com\/api\/v1\/prb\/ios reject-dict
-^https:\/\/as\.xiaohongshu\.com\/api\/v1\/profile\/ios reject-dict
-^https:\/\/as\.xiaohongshu\.com\/api\/v1\/dvf\/gch\/ios reject-dict
-^https:\/\/as\.xiaohongshu\.com\/api\/v1\/register\/ios reject-dict
-^https:\/\/as\.xiaohongshu\.com\/api\/v1\/cfg\/ios reject-dict
+^https:\/\/t2\.xiaohongshu\.com\/api\/v2\/collect reject
+^https:\/\/as\.xiaohongshu\.com\/api\/v1\/prb\/ios reject
+^https:\/\/as\.xiaohongshu\.com\/api\/v1\/profile\/ios reject
+^https:\/\/as\.xiaohongshu\.com\/api\/v1\/dvf\/gch\/ios reject
+^https:\/\/as\.xiaohongshu\.com\/api\/v1\/register\/ios reject
+^https:\/\/as\.xiaohongshu\.com\/api\/v1\/cfg\/ios reject
 ^https:\/\/fe\.xiaohongshu\.com\/apps\/gameplay\/wish reject-dict
 
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/guide\/home_guide reject-dict
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/guide\/home_guide reject
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/banner_list  reject-dict
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/feedback\/common reject-dict
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/metrics_report reject-dict
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/feedback\/common reject
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/metrics_report reject
 
 
 #哔哩哔哩
-^https:\/\/api\.bilibili\.com\/open\/monitor reject-dict
+^https:\/\/api\.bilibili\.com\/open\/monitor reject
 ^https:\/\/app\.bilibili\.com\/x\/v2\/splash reject-dict
-^https:\/\/dataflow\.biliapi\.com\/log\/pbmobile reject-dict
-^https:\/\/data\.bilibili\.com\/log reject-dict
+^https:\/\/dataflow\.biliapi\.com\/log\/pbmobile reject
+^https:\/\/data\.bilibili\.com\/log reject
 ^https:\/\/app\.bilibili\.com\/bilibili\.account\.fission\.v1\.Fission\/Window reject-dict
 ^https:\/\/api\.bilibili\.com\/x\/internal\/gaia-gateway\/ExBadBasket reject-dict
-^https:\/\/cm\.bilibili\.com\/cm\/api\/conversion\/mobile\/v2 reject-dict
-^https:\/\/api\.bilibili\.com\/x\/report\/click\/ios reject-dict
-^https:\/\/app\.bilibili\.com\/x\/v2\/dataflow\/report reject-dict
-^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/bubble reject-dict
-^https:\/\/i2\.hdslb\.com\/bfs\/sycp\/cm\/cover reject-dict    //搜索结果推广
+^https:\/\/cm\.bilibili\.com\/cm\/api\/conversion\/mobile\/v2 reject
+^https:\/\/api\.bilibili\.com\/x\/report\/click\/ios reject
+^https:\/\/app\.bilibili\.com\/x\/v2\/dataflow\/report reject
+^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/bubble reject
+^https:\/\/i2\.hdslb\.com\/bfs\/sycp\/cm\/cover reject    //搜索结果推广
 ^https:\/\/i2\.hdslb\.com\/bfs\/game reject-dict     //搜索结果推广
 ^https:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/DefaultWords reject-dict    //默认搜索词
 
@@ -81,8 +81,8 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 #小黑盒
 ^https:\/\/api\.xiaoheihe\.cn\/account\/get_ads_info_v reject-dict
 ^https:\/\/api\.xiaoheihe\.cn\/account\/ad\/get_overall_ad_info reject-dict
-^https:\/\/api\.xiaoheihe\.cn\/account\/data_report reject-dict
+^https:\/\/api\.xiaoheihe\.cn\/account\/data_report reject
 
 #kimi
-#^https:\/\/gator\.volces\.com\/service\/2\/app_log reject-dict
+#^https:\/\/gator\.volces\.com\/service\/2\/app_log reject
 
