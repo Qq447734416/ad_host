@@ -18,6 +18,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/rec\.xiaohongshu\.com\/api\/sns\/v1\/note\/tabfeed reject-dict  //屏蔽热门
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/badge\/update_badge reject-dict
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/launch reject-dict
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/system_service\/flag_exp reject-dict
 
 ^https:\/\/lng\.xiaohongshu\.com\/api\/collect reject-dict
 ^https:\/\/apm-native\.xiaohongshu\.com\/api\/collect reject-dict
