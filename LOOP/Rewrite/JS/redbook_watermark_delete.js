@@ -8,9 +8,9 @@ if(body){
     //转换格式
     body = JSON.parse(body);
     //修改
-    body.data.note_list.media_save_config.disable_save = false;
-    body.data.note_list.media_save_config.disable_watermark = true;
-    body.data.note_list.media_save_config.disable_weibo_cover = true;
+    body.data.[0].note_list[0].media_save_config.disable_save = false;
+    body.data.[0].note_list[0].media_save_config.disable_watermark = true;
+    body.data.[0].note_list[0].media_save_config.disable_weibo_cover = true;
     //转换格式
     body = JSON.stringify(body);
     console.log("修改成功");
