@@ -1,6 +1,9 @@
 //通过DNS映射解决无法访问GitHub问题
 //更新时间：2025-04-03 13:15:38
 
+#!icon= https://pic4.zhimg.com/v2-341e1d3b2845db15bceeff70d3fe228b_r.jpg
+#!tag = GitHub
+
 [Host]
 alive.github.com = 140.82.114.26
 api.github.com = 140.82.121.6
