@@ -42,7 +42,7 @@ if(body){
     body.data[0].note_list[0].media_save_config.disable_weibo_cover = true;
     //转换格式
     body = JSON.stringify(body);
-    console.log("修改成功");
+    console.log("\n修改媒体存储策略成功");
     $done({body:body});
   }catch(e){
     console.log("修改响应体失败：" + e);
