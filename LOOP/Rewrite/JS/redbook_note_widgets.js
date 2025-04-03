@@ -2,9 +2,16 @@
 
 let body = $response.body;
 if(body){
+    body = JSON.parse(body);
     try{
-        body = JSON.parse(body);
-        body.data.widgets_ndb = {};
+            if(body.data.hasOwnProperty('widgets_ndb')){
+            body.data.widgets_ndb = {};
+            console.log("修改成功");
+            $done({body:JSON.stringify(body)});            
+        }else{
+            console.log('此笔记无小组件');
+            $done({});
+        }
     }catch(e){
     //发送通知
     let title = "脚本运行错误";
