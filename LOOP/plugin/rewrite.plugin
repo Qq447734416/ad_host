@@ -58,6 +58,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/i2\.hdslb\.com\/bfs\/game reject-dict     //搜索结果推广
 ^https:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/DefaultWords reject-dict    //默认搜索词
 ^https:\/\/rec\.xiaohongshu\.com\/api\/sns\/v1\/followings\/reddot reject-dict  //首页关注引流红点
+^https:\/\/rec\.xiaohongshu\.com\/api\/sns\/v1\/localfeed reject-dict  //附近信息流
 
 #QQmusic
 ^https:\/\/y\.qq\.com\/mediastyle\/lv-icon reject-dict
