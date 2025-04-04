@@ -7,8 +7,8 @@ if(body){
         let live_index = 0;
         for(const item of body.data.datas){
             try{
-                item.url = $persistentStore.read(`${live_index}`)
-                console.log("替换URL成功，索引：" + live_index)
+                item.url = $persistentStore.read(`${live_index}`);
+                console.log("替换URL成功，索引：" + live_index);
             }catch(e){
                 console.log("替换url失败，索引：" + live_index);
                 
