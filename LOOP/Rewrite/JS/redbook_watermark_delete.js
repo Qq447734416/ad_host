@@ -10,7 +10,7 @@ if(body){
     //判断是否为live图类型笔记,若是则将liveur持久化存储，以配合对live图的去水印
     if(body.data[0].note_list[0].images_list.some((item) => 'live_photo' in item)){
         console.log('存在live图，尝试保存其url');
-        let live_index = 0;
+        let loop_index = 0;
         let live_url = null;
         for(const item of body.data[0].note_list[0].images_list){
             //判断此数据是否为live，若不是则跳过本轮循环，索引序号不会增加
@@ -27,15 +27,15 @@ if(body){
             }else if(item.live_photo.media.stream.av1.length !== 0){
                 live_url = item.live_photo.media.stream.av1[0].master_url;
             }else{
-                console.log("错误，未找到需要存储的URL"+live_index)
+                console.log("错误，未找到需要存储的URL"+loop_index)
             }
             //尝试存储
-            if($persistentStore.write(live_url, `${live_index}`)){
-                console.log("存储liveURL成功"+live_index)
+            if($persistentStore.write(live_url, `${item.live_photo_file_id}`)){
+                console.log("存储liveURL成功"+loop_index)
             }else{
-                console.log("存储liveURL失败"+live_index)
+                console.log("存储liveURL失败"+loop_index)
             }
-            live_index = live_index + 1;
+            loop_index = loop_index + 1;
         }
     }else{
         console.log("此笔记无live图，存储步骤已跳过")
