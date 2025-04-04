@@ -40,6 +40,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/update_device reject
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_online_decision reject-dict
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/uploadlocation reject
+^https:\/\/rec\.xiaohongshu\.com\/api\/sns\/v1\/localfeed\/header reject-dict
 
 
 #哔哩哔哩
