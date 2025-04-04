@@ -8,11 +8,15 @@ if(body){
     //转换格式
     body = JSON.parse(body);
     //判断是否为live图类型笔记,若是则将liveur持久化存储，以配合对live图的去水印
-    if(body.data[0].note_list[0].images_list[0].hasOwnProperty('live_photo')){
+    if(body.data[0].note_list[0].images_list.some((item) => 'live_photo' in item)){
         console.log('存在live图，尝试保存其url');
         let live_index = 0;
         let live_url = null;
         for(const item of body.data[0].note_list[0].images_list){
+            //判断此数据是否为live，若不是则跳过本轮循环，索引序号不会增加
+            if(!item.hasOwnProperty("live_photo")){
+                continue;
+            }
             //判断数据存储在那个数组，提取后存储，优先选择h265
             if(item.live_photo.media.stream.h265.length !== 0){
                 live_url = item.live_photo.media.stream.h265[0].master_url;
@@ -42,7 +46,7 @@ if(body){
     body.data[0].note_list[0].media_save_config.disable_weibo_cover = true;
     //转换格式
     body = JSON.stringify(body);
-    console.log("\n修改媒体存储策略成功");
+    console.log("修改成功");
     $done({body:body});
   }catch(e){
     console.log("修改响应体失败：" + e);
