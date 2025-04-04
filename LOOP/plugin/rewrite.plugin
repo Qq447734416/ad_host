@@ -64,6 +64,7 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 ^https:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/DefaultWords reject-dict    //默认搜索词
 ^https:\/\/ap[ip]\.bilibili\.com\/x\/(?:resource\/(?:top\/activity|patch\/tab)|v2\/search\/square|vip\/ads\/materials)\? reject-dict
 
+
 #QQmusic
 ^https:\/\/y\.qq\.com\/mediastyle\/lv-icon reject-dict
 ^https:\/\/music-conf-cdn\.y\.qq\.com\/ocs reject-dict
@@ -97,3 +98,5 @@ hostname = www.xiaohongshu.com, api.bilibili.com,  dataflow.biliapi.com,  data.b
 #kimi
 #^https:\/\/gator\.volces\.com\/service\/2\/app_log reject
 
+#淘宝
+^https:\/\/loggw-ex\.alipay\.com\/loggw\/logUpload\.do reject-dict
