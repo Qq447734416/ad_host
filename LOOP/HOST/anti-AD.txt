@@ -1,9 +1,9 @@
-//更新时间：2025-08-26 17:25:23
+//更新时间：2025-08-26 18:24:33
 
 #TITLE=anti-AD
-#VER=20250826024741
+#VER=20250826173546
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=87209
+#TOTAL_LINES=87208
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0013.cc
 DOMAIN-SUFFIX,0019x.com
@@ -76616,7 +76616,6 @@ DOMAIN-SUFFIX,tuilygtcief.com
 DOMAIN-SUFFIX,tuinei.com
 DOMAIN-SUFFIX,tuinfra.com
 DOMAIN-SUFFIX,tuipenguin.com
-DOMAIN-SUFFIX,yun.tuisnake.com
 DOMAIN-SUFFIX,tuite8.com
 DOMAIN-SUFFIX,tuitiger.com
 DOMAIN-SUFFIX,tuituigui19999.com
