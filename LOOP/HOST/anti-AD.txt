@@ -1,9 +1,9 @@
-//更新时间：2025-09-13 15:17:14
+//更新时间：2025-09-13 16:24:57
 
 #TITLE=anti-AD
-#VER=20250911193058
+#VER=20250913152418
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=94965
+#TOTAL_LINES=94964
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0013.cc
 DOMAIN-SUFFIX,0019x.com
@@ -67102,7 +67102,6 @@ DOMAIN-SUFFIX,sdksp.video.qq.com
 DOMAIN-SUFFIX,sec.video.qq.com
 DOMAIN-SUFFIX,sngapm.qq.com
 DOMAIN-SUFFIX,sngmta.qq.com
-DOMAIN-SUFFIX,snowflake.qq.com
 DOMAIN-SUFFIX,ssp.qq.com
 DOMAIN-SUFFIX,stat.y.qq.com
 DOMAIN-SUFFIX,statistic.qzone.qq.com
