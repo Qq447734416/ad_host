@@ -1,9 +1,9 @@
-//更新时间：2025-10-19 15:18:09
+//更新时间：2025-10-19 16:25:26
 
 #TITLE=anti-AD
-#VER=20251018202545
+#VER=20251019153112
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=98020
+#TOTAL_LINES=98019
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0013.cc
 DOMAIN-SUFFIX,0019x.com
@@ -74669,7 +74669,6 @@ DOMAIN-SUFFIX,scaredsong.com
 DOMAIN-SUFFIX,scaredstomach.com
 DOMAIN-SUFFIX,scarefowl.com
 DOMAIN-SUFFIX,scareshortnovel.com
-DOMAIN-SUFFIX,scarf.sh
 DOMAIN-SUFFIX,scarfsethenic.click
 DOMAIN-SUFFIX,scarfsmash.com
 DOMAIN-SUFFIX,scarftruman.world
