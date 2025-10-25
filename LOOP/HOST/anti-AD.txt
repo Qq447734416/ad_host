@@ -1,9 +1,9 @@
-//更新时间：2025-10-25 16:26:11
+//更新时间：2025-10-25 17:19:59
 
 #TITLE=anti-AD
-#VER=20251024222850
+#VER=20251025170826
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=97845
+#TOTAL_LINES=97841
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0013.cc
 DOMAIN-SUFFIX,0014b04291.com
@@ -53178,10 +53178,6 @@ DOMAIN-SUFFIX,maiphoapaique.net
 DOMAIN-SUFFIX,maipinshangmao.com
 DOMAIN-SUFFIX,s.maipubao.cn
 DOMAIN-SUFFIX,mairdumont.com
-DOMAIN-SUFFIX,hypersnap.mairuan.com
-DOMAIN-SUFFIX,logoshejishi.mairuan.com
-DOMAIN-SUFFIX,xia.mairuan.com
-DOMAIN-SUFFIX,mairuanwang.com
 DOMAIN-SUFFIX,eulerian.maison-facile.com
 DOMAIN-SUFFIX,lwkvkd.maison-objet.com
 DOMAIN-SUFFIX,l.maison-travaux.fr
