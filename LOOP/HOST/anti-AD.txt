@@ -1,9 +1,9 @@
-//更新时间：2025-12-17 12:35:40
+//更新时间：2025-12-17 13:26:54
 
 #TITLE=anti-AD
-#VER=20251217025247
+#VER=20251217130310
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=98836
+#TOTAL_LINES=98835
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0013.cc
 DOMAIN-SUFFIX,0014b04291.com
@@ -81437,7 +81437,6 @@ DOMAIN-SUFFIX,rampjs-cdn.system1.com
 DOMAIN-SUFFIX,obs.system1onesource.com
 DOMAIN-SUFFIX,feppiu.systemaction.es
 DOMAIN-SUFFIX,systeme-business.online
-DOMAIN-SUFFIX,systeme.io
 DOMAIN-SUFFIX,forms.systeminetwork.com
 DOMAIN-SUFFIX,systemleadb.com
 DOMAIN-SUFFIX,marketing.systempavers.com
