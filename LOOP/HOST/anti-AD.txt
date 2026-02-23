@@ -1,9 +1,9 @@
-//更新时间：2026-02-23 15:10:55
+//更新时间：2026-02-23 16:55:30
 
 #TITLE=anti-AD
-#VER=20260223025850
+#VER=20260223154158
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=105946
+#TOTAL_LINES=105945
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0013.cc
 DOMAIN-SUFFIX,0014b04291.com
@@ -74395,7 +74395,6 @@ DOMAIN-SUFFIX,bugly.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,cfg.imtt.qq.com
 DOMAIN-SUFFIX,commdata.v.qq.com
-DOMAIN-SUFFIX,d3g.qq.com
 DOMAIN-SUFFIX,data.qq.com
 DOMAIN-SUFFIX,detect.mb.qq.com
 DOMAIN-SUFFIX,dp3.qq.com
