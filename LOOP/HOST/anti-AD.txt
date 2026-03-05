@@ -1,9 +1,9 @@
-//更新时间：2026-03-05 22:50:57
+//更新时间：2026-03-05 23:54:17
 
 #TITLE=anti-AD
-#VER=20260305030959
+#VER=20260305230101
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=104184
+#TOTAL_LINES=104183
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,0013.cc
 DOMAIN-SUFFIX,0014b04291.com
@@ -78174,7 +78174,6 @@ DOMAIN-SUFFIX,sare25.com
 DOMAIN-SUFFIX,eulerian.sarenza.com
 DOMAIN-SUFFIX,sarov.ws
 DOMAIN-SUFFIX,sarrowgrivois.com
-DOMAIN-SUFFIX,sas.com
 DOMAIN-SUFFIX,sas15k01.com
 DOMAIN-SUFFIX,ced.sascdn.com
 DOMAIN-SUFFIX,stats.sascha-theobald.de
